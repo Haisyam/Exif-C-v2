@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../src/style/custom.css" />
+    <link rel="stylesheet" href="../src/style/output.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap"
+      rel="stylesheet"
+    />
+    <title>Home - Upload Tugas</title>
+  </head>
+  <body class="bg-black font-mulish">
+    <nav
+      id="navbar"
+      class="bg-transparent flex items-center justify-center fixed top-5 left-0 w-full z-50 transition duration-400 ease-in-out"
+    >
+      <div
+        class="bg-black border border-gray-700 rounded-full px-4 py-2 flex items-center space-x-5"
+      >
+        <a
+          href="../index.html"
+          class="text-white font-medium hover:text-gray-300"
+          >Home</a
+        >
+        <a
+          href="../index.html#anggota"
+          class="text-white font-medium hover:text-gray-300"
+          >Anggota</a
+        >
+        <a
+          href="../index.html#galery"
+          class="text-white font-medium hover:text-gray-300"
+          >Galery</a
+        >
+        <button
+          id="alertButton"
+          class="font-medium border border-gray-700 rounded-full px-4 py-1 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-transparent"
+        >
+          Login
+        </button>
+      </div>
+    </nav>
+
+    <section
+      class="text-white bg-cover bg-no-repeat"
+      style="
+        background-image: url('../src/assets/images/anu.svg');
+        min-height: 100vh;
+      "
+    >
+      <div class="container text-center flex justify-center mb-5 mt-10">
+        <h1
+          class="mt-10 bg-gradient-to-r from-green-300 via-blue-500 to-purple-600 bg-clip-text text-md lg:text-2xl font-extrabold text-transparent"
+        >
+          Upload <span class="text-white text-4xl text-end">Tugas</span>
+        </h1>
+      </div>
+      <div class="container">
+        <div class="grid md:grid-cols-3 gap-4">
+          <div class="glass shadow-md rounded p-4">
+            <h5 class="text-lg font-bold mb-5">B. INGGRIS 1</h5>
+            <!-- <p class="text-gray-400">.</p> -->
+            <a
+              class="btn-tugas hover:border hover:border-gray-500 text-white font-semibold py-2 px-4"
+              href="./inggris.html"
+              >CONVERSATION</a
+            >
+            <p class="ml-4 mt-4">
+              Deadline: Selasa, 15 Oktober 2024, 13:00 WIB
+            </p>
+          </div>
+          <div class="glass shadow-md rounded p-4">
+            <h5 class="text-lg font-bold mb-5">B. INDONESIA</h5>
+            <!-- <p class="text-gray-400">.</p> -->
+            <a
+              class="btn-tugas hover:border hover:border-gray-500 text-white font-semibold py-2 px-4"
+              href="./indonesia.html"
+              >Kalimat Efektif</a
+            >
+            <p class="ml-4 mt-4">Deadline: Rabu, 16 Oktober 2024</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
